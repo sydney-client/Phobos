@@ -5,6 +5,9 @@
 
 <h1>Information</h1>
 
+Please keep in mind this is not a buildable version of the client. This repository only contains the implementation of the socket and HTTP connections, which you are free to analyze and improve.
+You can find the complete jar in the Releases section.
+
 <h2>How to Use</h2>
 <li>Install Fabric Loader 1.21.1, preferably version 0.15.11 but it doesn't matter</li>
 <li>Download Fabric API and put it in your mods folder</li>
