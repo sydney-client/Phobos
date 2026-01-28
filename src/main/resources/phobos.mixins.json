@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.sydneyclient.phobos.mixins",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "MinecraftClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

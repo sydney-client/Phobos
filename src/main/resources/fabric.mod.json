@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "phobos",
+	"version": "${version}",
+	"name": "Phobos",
+	"description": "Credits to GurteX for pasting the client.",
+	"authors": [
+		"Aidan"
+	],
+	"contact": {
+		"sources": "https://github.com/sydney-client/phobos"
+	},
+	"icon": "assets/phobos/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.sydneyclient.phobos.entrypoints.FabricEntryPoint"
+		]
+	},
+	"mixins": [
+		"phobos.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	}
+}
